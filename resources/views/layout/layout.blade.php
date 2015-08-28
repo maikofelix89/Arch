@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Mombo Sacco</title>
+        <title>Design</title>
 
         <!-- favicon -->
         <link rel="icon" href="/images/favicon.ico" type="image/ico" sizes="16x16">
