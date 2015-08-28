@@ -72,8 +72,8 @@
               <li class="dropdown">
                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Sub Categories <span class="caret"></span></a>
                  <ul class="dropdown-menu" role="menu">
-                     <li><a href="../auth/logout">View</a></li>
-                     <li><a href="../auth/logout">Add</a></li>
+                     <li><a href="/subcategories">View</a></li>
+                     <li><a href="/subcategory/create">Add</a></li>
 
                  </ul>
              </li>

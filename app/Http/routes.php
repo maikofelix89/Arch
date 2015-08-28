@@ -15,6 +15,13 @@ Route::get('/categories/view','CategoriesController@index');
 Route::get('/category/create','CategoriesController@create');
 Route::post('/category/store','CategoriesController@store');
 
+
+Route::get('/subcategories','SubCategoriesController@index');
+Route::get('/subcategory/create','SubCategoriesController@create');
+Route::post('/subcategory/store','SubCategoriesController@store');
+
+
+
 Route::get('/', function () {
     return view('welcome');
 });
