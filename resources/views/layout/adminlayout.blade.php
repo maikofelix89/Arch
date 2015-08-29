@@ -22,7 +22,8 @@
 
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 
-    
+      <!-- jasny bootstrap -->
+        <link rel="stylesheet" type="text/css" href="/components/jasny-bootstrap/dist/css/jasny-bootstrap.min.css">
 
    <!-- font awesome -->
         <link rel="stylesheet" type="text/css" href="/components/font-awesome/css/font-awesome.min.css">
@@ -125,7 +126,8 @@
         <!-- bootstrap min -->
         <script type="text/javascript" src="/components/bootstrap/dist/js/bootstrap.min.js"></script>
 
-    
+      <!-- jasny bootstrap js -->
+        <script type="text/javascript" src="/components/jasny-bootstrap/dist/js/jasny-bootstrap.min.js"></script>
 
 </body>
 
