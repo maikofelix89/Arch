@@ -81,8 +81,8 @@
               <li class="dropdown">
                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Houses <span class="caret"></span></a>
                  <ul class="dropdown-menu" role="menu">
-                     <li><a href="../auth/logout">View</a></li>
-                     <li><a href="../auth/logout">Add</a></li>
+                     <li><a href="/houses/view">View</a></li>
+                     <li><a href="/house/create">Add</a></li>
 
                  </ul>
              </li>
@@ -109,5 +109,11 @@
     
         <!-- jasny bootstrap js -->
         <script type="text/javascript" src="/components/jasny-bootstrap/dist/js/jasny-bootstrap.min.js"></script>
+    
+
+
+
+
+
     </body>
 </html>
