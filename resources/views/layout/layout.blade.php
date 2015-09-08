@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html>
+<html ng-app="app">
     <head>
         <title>Design</title>
 
@@ -10,7 +10,7 @@
         <link href="//fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
         <!-- custom css -->
-        <link rel="stylesheet" type="text/css" href="/css/all.css">
+        <link rel="stylesheet" type="text/css" href="/css/site.css">
 
         <!-- bootstrap css -->
         <link rel="stylesheet" type="text/css" href="/components/bootstrap/dist/css/bootstrap.min.css">
@@ -24,16 +24,26 @@
       
        <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
- <style type="text/css">
- 
+          <!-- jquery min -->
+        <script type="text/javascript" src="/components/jquery/dist/jquery.min.js"></script>
 
- </style>
+         <!-- angular js -->
+
+        <script type="text/javascript" src="/components/angular/angular.min.js"></script>
+
+
+        <script type="text/javascript" src="/components/angular-animate/angular-animate.min.js"></script>
+
+    
+
+
+
        
     </head>
     <body>
 
     <!-- navbar -->
-    <nav class="navbar navbar-default" id="mynavbar">
+    <nav class="navbar navbar-inverse" id="mynavbar">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -101,18 +111,20 @@
 
         <!-- scripts at the bottom to load after everything else -->
 
-        <!-- jquery min -->
-        <script type="text/javascript" src="/components/jquery/dist/jquery.min.js"></script>
+      
 
         <!-- bootstrap min -->
         <script type="text/javascript" src="/components/bootstrap/dist/js/bootstrap.min.js"></script>
     
         <!-- jasny bootstrap js -->
         <script type="text/javascript" src="/components/jasny-bootstrap/dist/js/jasny-bootstrap.min.js"></script>
-    
+    <script type="text/javascript">
+   
 
 
+    </script>
 
+      
 
 
     </body>

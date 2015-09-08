@@ -35,6 +35,4 @@ Route::post('/photo/store','PhotoController@store');
 
 
 
-Route::get('/', function () {
-    return view('layout.adminlayout');
-});
+Route::get('/','ClientController@index');
